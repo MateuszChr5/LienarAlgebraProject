@@ -24,7 +24,7 @@ void AObjectMovement::Tick(float DeltaTime)
 	float Speed = 300.0f; //Create new variable float Speed and set it to 300
 
 	FVector NewLocation = GetActorLocation() + (Forward * Speed * DeltaTime); //Get location of actor and adding to it vector
-
+	
 	SetActorLocation(NewLocation); //Every tick changing actor possition
 }
 
