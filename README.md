@@ -1,4 +1,19 @@
-# LienarAlgebraProject
-Simple project working on 3DMath:
+# LinearAlgebraProject
 
-First lesson was vector: Making c++ class pawn which adding some velocity to froward vector event tick. In blueprints i make simple logic- every second print location and name of object.
+A simple Unreal Engine project focused on learning and experimenting with 3D Math concepts.
+
+## Features
+
+### Vector Basics
+Created a C++ Pawn class that adds velocity along its forward vector every tick.  
+In Blueprints, simple logic prints the actor's name and location every second.
+
+### Actor Following System
+Created a C++ Actor class that continuously rotates toward and follows a target actor every tick.  
+The target is a green mannequin moving around the map.
+
+## Technologies
+- Unreal Engine 5
+- C++
+- Blueprints
+- 3D Math / Linear Algebra
